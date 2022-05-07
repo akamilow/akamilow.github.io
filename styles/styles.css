@@ -177,7 +177,7 @@ section {
 .header-content {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
+  -ms-grid-columns: (1fr);
       grid-template-columns: repeat(2, 1fr);
   min-height: 100vh;
 }
@@ -251,7 +251,7 @@ section {
 .about-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
+  -ms-grid-columns: (1fr);
       grid-template-columns: repeat(2, 1fr);
   padding-top: 3.5rem;
   padding-bottom: 5rem;
@@ -260,7 +260,7 @@ section {
 .about-container .right-about {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
+  -ms-grid-columns: (1fr);
       grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
 }
@@ -341,7 +341,7 @@ section {
 .about-stats .progress-bars {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
+  -ms-grid-columns: (1fr);
       grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
 }
@@ -413,8 +413,8 @@ section {
   width: 20%;
 }
 
-.about-stats .progress-bars .progress-bar .progress-con .progress .sql {
-  width: 50%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .java {
+  width: 20%;
 }
 
 .stat-title {
@@ -441,7 +441,7 @@ section {
 .timeline {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
+  -ms-grid-columns: (1fr);
       grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
   padding-bottom: 3rem;
@@ -511,7 +511,7 @@ section {
 .portfolios {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
+  -ms-grid-columns: (1fr);
       grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
   margin-top: 3rem;
@@ -843,7 +843,6 @@ section {
     height: 50px;
   }
   .header-content {
-    -ms-grid-columns: (1fr)[1];
     grid-template-columns: repeat(1, 1fr);
     padding-bottom: 6rem;
   }
@@ -886,16 +885,14 @@ section {
     margin-top: 5px 5px;
     margin-left: 15px;
     padding: 10px;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
   }
   .about-container {
-    -ms-grid-columns: (1fr)[1];
-        grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
-  .about-container .right-about {
-    -ms-grid-columns: (1fr)[1];
-        grid-template-columns: repeat(1, 1fr);
+  .about-container .right-about {   
+    grid-template-columns: repeat(1, 1fr);
     padding-top: 2.5rem;
   }
   .about-container .left-about {
@@ -905,20 +902,17 @@ section {
     padding-left: 0;
   }
   .timeline {
-    -ms-grid-columns: (1fr)[1];
-        grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     padding-bottom: 6rem;
   }
   .section {
     padding: 2rem 2.5rem !important;
   }
   .about-stats .progress-bars {
-    -ms-grid-columns: (1fr)[1];
-        grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
   .portfolios {
-    -ms-grid-columns: (1fr)[1];
-        grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     padding-bottom: 6rem;
     margin-top: 1rem;
   }
@@ -1008,8 +1002,7 @@ section {
 
 @media screen and (max-width: 1250px) {
   .portfolios {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
   .header-content .right-header {
     padding-right: 9rem;
@@ -1018,14 +1011,13 @@ section {
 
 @media screen and (max-width: 660px) {
   .portfolios {
-    -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);
   }
 }
 
 @media screen and (max-width: 1070px) {
   .about-container {
-    -ms-grid-columns: (1fr)[1];
+    -ms-grid-columns: (1fr);
         grid-template-columns: repeat(1, 1fr);
   }
   .about-container .right-about {
@@ -1050,8 +1042,7 @@ section {
     padding-right: 0rem;
   }
   .header-content {
-    -ms-grid-columns: (1fr)[1];
-        grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     padding-bottom: 6rem;
   }
   .left-header .h-shape {
@@ -1080,15 +1071,15 @@ section {
     padding: 7rem 3rem;
   }
   .about-stats .progress-bars {
-    -ms-grid-columns: (1fr)[1];
+    -ms-grid-columns: (1fr);
         grid-template-columns: repeat(1, 1fr);
   }
   .about-container .right-about {
-    -ms-grid-columns: (1fr)[1];
+    -ms-grid-columns: (1fr);
         grid-template-columns: repeat(1, 1fr);
   }
   .timeline {
-    -ms-grid-columns: (1fr)[1];
+    -ms-grid-columns: (1fr);
         grid-template-columns: repeat(1, 1fr);
   }
   .main-title h2 {
@@ -1101,4 +1092,3 @@ section {
     font-size: 4rem;
   }
 }
-/*# sourceMappingURL=styles.css.map */
