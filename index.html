@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
 </head>
 <body class="main-content">
     <header class="container header active" id="home">
@@ -18,7 +19,7 @@
             <div class="left-header">
                 <div class="h-shape"></div>
                 <div class="image">
-                    <img src="img/salomon2.jpg" alt="">
+                    <img src="img/salomon2.jpg">
                 </div>
             </div>
             <div class="right-header">
@@ -63,65 +64,39 @@
                     </div>
                 </div>
             </div>           
-            <div class="about-stats">
-                <h4 class="stat-title">Estadísticas</h4>
-                <div class="progress-bars">
-                    <div class="progress-bar">
-                        <p class="prog-title">HTML</p>
-                        <div class="progress-con">
-                            <p class="prog-text">70%</p>
-                            <div class="progress">
-                                <span class="html"></span>
-                            </div>
+            <div class="about-skills">
+                <h4 class="stat-title">Tecnologías Conocidas</h4>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <img src="https://icon-library.com/images/html5-icon/html5-icon-13.jpg">
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="https://logodix.com/logo/1111675.png">
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1024px-Unofficial_JavaScript_logo_2.svg.png">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://getbootstrap.com/docs/5.2/assets/brand/bootstrap-logo-shadow.png">
+                          </div>
+                        <div class="swiper-slide">
+                          <img src="https://freepngimg.com/thumb/python_logo/7-2-python-logo-free-download-png.png">
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="https://www.pngkey.com/png/full/360-3603565_php-logo-png-logo-php.png">
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="https://blog.index.pe/wp-content/uploads/2021/01/MySQL-Logo.wine_-720x320@2x.png">
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="http://assets.stickpng.com/images/5847f981cef1014c0b5e48be.png">
                         </div>
                     </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">CSS</p>
-                        <div class="progress-con">
-                            <p class="prog-text">55%</p>
-                            <div class="progress">
-                                <span class="css"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">JavaScript</p>
-                        <div class="progress-con">
-                            <p class="prog-text">35%</p>
-                            <div class="progress">
-                                <span class="js"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Python</p>
-                        <div class="progress-con">
-                            <p class="prog-text">30%</p>
-                            <div class="progress">
-                                <span class="python"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">PHP</p>
-                        <div class="progress-con">
-                            <p class="prog-text">20%</p>
-                            <div class="progress">
-                                <span class="php"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Java</p>
-                        <div class="progress-con">
-                            <p class="prog-text">20%</p>
-                            <div class="progress">
-                                <span class="java"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
             </div>
+        
             <h4 class="stat-title">Línea de tiempo</h4>
             <div class="timeline">
                 <div class="timeline-item">
@@ -225,7 +200,7 @@
                 <div class="contact-content-con">
                     <div class="contact">
                         <h4>Email:</h4>
-                        <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=camilocastelar3@gmail.com" target="_blank">camilocastelar3@gmail.com</a>
+                        <a href="mailto:camilocastelar3@gmail.com" target="_blank">camilocastelar3@gmail.com</a>
                         <h4>Información adicional:</h4>
                         <div class="contact-info">
                             <div class="contact-item">
@@ -284,6 +259,9 @@
             <i class="fas fa-envelope-open"></i>
         </div>
     </div>
-    <script src="app.js"></script>
+
+    <script src="js/app.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/swiper.js"></script>
 </body>
 </html>
