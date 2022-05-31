@@ -33,7 +33,6 @@ body {
 
 a {
   display: inline-block;
-  text-decoration: none;
   color: inherit;
   font-family: inherit;
 }
@@ -506,6 +505,12 @@ section {
   margin-bottom: 1.5rem;
 }
 
+.portfolios .portfolio-item .hover-items h4 {
+  font-size: 1rem;
+  color: var(--color-white);
+  margin-bottom: 1.5rem;
+}
+
 .portfolios .portfolio-item .hover-items .icons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -532,6 +537,7 @@ section {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  text-decoration: none;
   margin: 0 1rem;
   cursor: pointer;
   -webkit-transition: all .4s ease-in-out;
@@ -641,6 +647,7 @@ section {
   height: 50px;
   border-radius: 50%;
   margin: 0 .4rem;
+  text-decoration: none;
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
 }
@@ -690,6 +697,7 @@ section {
       -ms-flex-align: center;
           align-items: center;
   overflow: hidden;
+  text-decoration: none;
 }
 
 .main-btn .btn-text {

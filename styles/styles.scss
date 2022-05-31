@@ -31,7 +31,6 @@ body {
 
 a {
     display: inline-block;
-    text-decoration: none;
     color: inherit;
     font-family: inherit;
 }
@@ -366,6 +365,11 @@ section {
                 color: var(--color-white);
                 margin-bottom: 1.5rem;
             }
+            h4 {
+                font-size: 1rem;
+                color: var(--color-white);
+                margin-bottom: 1.5rem;
+            }
             .icons {
                 display: flex;
                 justify-content: center;
@@ -378,6 +382,7 @@ section {
                     display: flex;
                     align-items: center;
                     justify-content: center;
+                    text-decoration: none;
                     margin: 0 1rem;
                     cursor: pointer;
                     transition: all .4s ease-in-out;
@@ -453,6 +458,7 @@ section {
                 height: 50px;
                 border-radius: 50%;
                 margin: 0 .4rem;
+                text-decoration: none;
                 transition: all .4s ease-in-out;
                 &:hover {
                     background-color: var(--color-secondary);
@@ -486,6 +492,7 @@ section {
     align-self: flex-start;
     align-items: center;
     overflow: hidden;
+    text-decoration: none;
     .btn-text { padding: 0 2rem; }
     .btn-icon {
         background-color: var(--color-secondary);
