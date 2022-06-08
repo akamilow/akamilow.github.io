@@ -588,6 +588,11 @@ section {
   line-height: 2rem;
 }
 
+.contact-content-con .contact .btn-con {
+  margin-top: 2rem;
+  margin-bottom: 6rem;
+}
+
 .contact-content-con .contact .contact-info .contact-item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -627,7 +632,7 @@ section {
   display: -ms-flexbox;
   display: flex;
   margin-top: 1rem;
-  margin-bottom: 6rem;
+  margin-bottom: 2rem;
 }
 
 .contact-content-con .contact .contact-icon a {
