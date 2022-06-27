@@ -780,6 +780,10 @@ section {
   font-size: 6.3rem;
 }
 
+.badge-base {
+  height: 280px;
+}
+
 .about-container .left-about p {
   padding-left: 0;
 }
