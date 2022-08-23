@@ -573,4 +573,14 @@ section {
     height: 280px;
 }
 
-@import './media';
+// @import './media';
+
+.header-content {
+    display: none;
+}
+main {
+    display: none;
+}
+.controls {
+    display: none;
+}
