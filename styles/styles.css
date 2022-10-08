@@ -587,11 +587,12 @@ section {
 }
 
 .mirrorDoom {
+  display: flex;
+  justify-content: center;
   margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  border-radius: 10px;
+}
+.mirrorDoom img {
+  border-radius: 15px;
 }
 
 .about-container .left-about p {
