@@ -593,6 +593,9 @@ section {
 }
 .mirrorDoom img {
   border-radius: 15px;
+  max-width: 480px;
+  width: 100%;
+  height: auto;
 }
 
 .about-container .left-about p {
@@ -655,7 +658,7 @@ section {
   }
   .timeline {
     grid-template-columns: repeat(1, 1fr);
-    padding-bottom: 6rem;
+    padding-bottom: 2rem;
   }
   .container {
     padding: 2rem 2.5rem !important;
@@ -707,6 +710,10 @@ section {
   }
   .main-title h2 .bg-text {
     font-size: 2.3rem;
+  }
+  .mirrorDoom {
+    margin-top: 20px;
+    margin-bottom: 100px;
   }
 }
 @media screen and (max-width: 1432px) {

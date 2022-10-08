@@ -67,7 +67,7 @@
 
     .timeline {
         grid-template-columns: repeat(1, 1fr);
-        padding-bottom: 6rem;
+        padding-bottom: 2rem;
     }
 
     .container {
@@ -133,6 +133,11 @@
                 font-size: 2.3rem;
             }
         }
+    }
+
+    .mirrorDoom {
+        margin-top: 20px;
+        margin-bottom: 100px;
     }
 }
 
