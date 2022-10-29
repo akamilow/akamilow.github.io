@@ -52,7 +52,7 @@ section {
 }
 
 ::-webkit-scrollbar {
-  width: 13px;
+  width: 11px;
 }
 
 ::-webkit-scrollbar-track {
@@ -120,7 +120,7 @@ section {
   justify-content: center;
   align-items: center;
   margin: 0.7rem 0;
-  box-shadow: var(--box-shadow-1);
+  box-shadow: 8px -8px 20px #171717, -8px 8px 20px #161616;
 }
 .controls .control i {
   font-size: 1.2rem;
