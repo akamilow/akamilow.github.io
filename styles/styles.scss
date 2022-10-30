@@ -53,7 +53,7 @@ section {
 
 //Scroll bar
 ::-webkit-scrollbar {
-    width: 11px;
+    width: 10px;
 }
 
 ::-webkit-scrollbar-track {
@@ -108,7 +108,7 @@ section {
         justify-content: center;
         align-items: center;
         margin: .7rem 0;
-        box-shadow:  8px -8px 20px #171717, -8px 8px 20px #161616;
+        box-shadow:  8px -8px 20px #232323, -8px 8px 20px #292929;
         i {
             font-size: 1.2rem;
             color: var(--color-grey-2);
@@ -117,7 +117,10 @@ section {
     }
     .active-btn {
         background-color: var(--color-secondary);
-        i { color: var(--color-white); }
+        box-shadow:  6px -6px 15px #359233, -6px 6px 15px #43b63d;
+        i { 
+            color: var(--color-white); 
+        }
     }
 }
 
@@ -581,7 +584,6 @@ section {
         width: 100%;
         height: auto;
     }
-
 }
 
 @import './media';

@@ -52,7 +52,7 @@ section {
 }
 
 ::-webkit-scrollbar {
-  width: 11px;
+  width: 10px;
 }
 
 ::-webkit-scrollbar-track {
@@ -120,7 +120,7 @@ section {
   justify-content: center;
   align-items: center;
   margin: 0.7rem 0;
-  box-shadow: 8px -8px 20px #171717, -8px 8px 20px #161616;
+  box-shadow: 8px -8px 20px #232323, -8px 8px 20px #292929;
 }
 .controls .control i {
   font-size: 1.2rem;
@@ -129,6 +129,7 @@ section {
 }
 .controls .active-btn {
   background-color: var(--color-secondary);
+  box-shadow: 6px -6px 15px #359233, -6px 6px 15px #43b63d;
 }
 .controls .active-btn i {
   color: var(--color-white);
