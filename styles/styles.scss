@@ -171,7 +171,15 @@ section {
         padding-right: 18rem;
         .name {
             font-size: 3rem;
-            span { color: var(--color-secondary); }
+            span { 
+                background-image: url(../img/espiral.gif);
+                background-size: cover;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                -moz-background-clip: text;
+                -moz-text-fill-color: transparent;
+            }
         }
     }
 }
