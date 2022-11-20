@@ -243,6 +243,9 @@ section {
   height: 2px;
   background-color: var(--color-grey-5);
 }
+.about-container .right-about .about-item .about-item-link {
+  text-decoration: none;
+}
 .about-container .left-about {
   padding-right: 5rem;
 }
