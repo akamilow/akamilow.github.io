@@ -141,6 +141,16 @@
     }
 }
 
+@media screen and (max-width: 1270px) {
+    .portfolios {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .header-content .right-header {
+        padding-right: 9rem;
+    }
+}
+
 @media screen and (max-width:1550px) {
     .container {
         padding: 3rem 9rem;
@@ -178,12 +188,11 @@
 }
 
 @media screen and (max-width:1250px) {
-    .portfolios {
-        grid-template-columns: repeat(2, 1fr);
+    .container {
+        padding: 3rem 8rem;
     }
-
-    .header-content .right-header {
-        padding-right: 9rem;
+    .about-container .right-about {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
