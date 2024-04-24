@@ -174,7 +174,7 @@ section {
   font-size: 4rem;
 }
 .header-content .right-header .name span {
-  background-image: url(../img/patternpad.svg);
+  background-image: url(../img/espiral.gif);
   background-size: cover;
   background-clip: text;
   -webkit-background-clip: text;

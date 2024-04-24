@@ -171,8 +171,9 @@ section {
         padding-right: 18rem;
         .name {
             font-size: 4rem;
-            span {
-                background-image: url(../img/patternpad.svg);
+            span { 
+                //background-image: url(../img/patternpad.svg);
+                background-image: url(../img/espiral.gif);
                 background-size: cover;
                 background-clip: text;
                 -webkit-background-clip: text;
